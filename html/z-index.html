@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        div.main{
+            height: 50%;
+            width: 50%;
+            top: 50px;
+            left: 50px;
+        }
         div.red{
             background-color: red;
             height: 150px;
@@ -15,18 +21,31 @@
             background-color: blue;
             z-index: -1;
             position: relative;
-            
-            
         }
-    </style>
+        div.green{
+            background-color: green;
+            position: sticky;
+            top: 100px;
+        }  
+        div.black{
+            background-color: black;
+            position: fixed;
+        }
+          </style>
 </head>
 <body>
-    <div>
+    <div class="main">
     <div class="red">
         this is 1st div
     </div>
     <div class="blue">
         this is 2nd div <br><br><br><br><br>
+    </div>
+    <div class="green">
+        this is 3rd div 
+    </div>
+    <div class="black">
+        this is 4th div
     </div>
 </div>
 </body>
