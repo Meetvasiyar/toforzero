@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-image: url(dp\ 3.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.file{
+    text-decoration: none;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    font-size: 30px;
+    color: white;
+}
+.name{
+    font-weight: 100%;
+    font-size: 60px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: sticky;
+    top: 20px;
+}
